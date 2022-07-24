@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="http://example.com/tags/"/>
+  <link rel="canonical" href="http://example.com/2022/07/24/工具/scrcpy/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -31,17 +31,19 @@
   <!-- feed -->
   <!-- 页面元数据 -->
   <pjax>
-  <title>标签 - 末明</title>
+  <title>scrcpy - 末明</title>
   <meta name="keywords" content="null">
-  <meta desc name="description" content=" 测试博客副描述,位置啦啦啦啦 - 我的名字 - 末明">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://example.com/tags/index.html">
+  <meta desc name="description" content="开源投屏软件 scrcpy 的简单使用GitHub：scrcpy - 我的名字 - 末明">
+  
+<meta property="og:type" content="article">
+<meta property="og:title" content="scrcpy">
+<meta property="og:url" content="http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/index.html">
 <meta property="og:site_name" content="末明">
+<meta property="og:description" content="开源投屏软件 scrcpy 的简单使用GitHub：scrcpy">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2022-05-17T16:31:56.000Z">
-<meta property="article:modified_time" content="2022-06-06T15:02:52.941Z">
+<meta property="article:published_time" content="2022-07-23T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-07-24T06:00:51.421Z">
 <meta property="article:author" content="我的名字">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2605,7 +2607,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper tags dock' style="display: none;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://uploadbeta.com/_s/upload/2017/02/13/212f795247c653bdc5e86b0917f9100f.jpg"></div>
 
@@ -2733,8 +2735,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-tags" id="tags" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="http://example.com/tags/index.html">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="末明">
   </span>
@@ -2755,7 +2757,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        标签
+        scrcpy
       </h1>
       <div class='new-meta-box'>
         
@@ -2772,14 +2774,24 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
             
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/instrument/">instrument</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/instrument/" itemprop="url"><span itemprop="name">instrument</span></a>
+      </span>
+    
+  </div>
+
 
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-18T00:31:56+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-07-24T00:00:00+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2022年5月18日</p>
+    <p>发布于：2022年7月24日</p>
   </a>
 </div>
 
@@ -2800,14 +2812,302 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    
+    <p>开源投屏软件 scrcpy 的简单使用<br>GitHub：<a target="_blank" rel="noopener" href="https://github.com/Genymobile/scrcpy">scrcpy</a></p>
+<span id="more"></span>
+
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><ul>
+<li>轻量： 原生，仅显示设备屏幕</li>
+<li>性能： 30~120fps，取决于设备</li>
+<li>质量： 分辨率可达 1920×1080 或更高</li>
+<li>低延迟： 35~70ms</li>
+<li>快速启动： 最快 1 秒内即可显示第一帧</li>
+<li>无侵入性： 不会在设备上遗留任何程序</li>
+<li>用户利益： 无需帐号，无广告，无需联网</li>
+<li>自由： 自由和开源软件</li>
+<li>要求:<ul>
+<li>安卓设备最低需要支持 API 21 (Android 5.0)。</li>
+<li>确保设备已开启 adb 调试</li>
+</ul>
+</li>
+</ul>
+<h3 id="连接"><a href="#连接" class="headerlink" title="连接"></a>连接</h3><h4 id="1-有线连接电脑和手机"><a href="#1-有线连接电脑和手机" class="headerlink" title="1.有线连接电脑和手机"></a>1.有线连接电脑和手机</h4><pre><code>- 将下载的资源解压到任意目录
+
+- 将手机与电脑用USB连接, USB连接方式选择传输文件
+
+- 打开手机开发者模式，在设置内进入开发人员选项并打开USB调试功能
+
+- 在资源解压目录进入cmd
+
+- 输入命令 adb devices,可以看到已连接手机
+
+- 输入命令 scrcpy.exe ，即可成功投屏
+</code></pre>
+<h4 id="2-无线连接"><a href="#2-无线连接" class="headerlink" title="2.无线连接"></a>2.无线连接</h4><pre><code>- 确保你的电脑和手机在同一局域网中，查看手机ip信息（设置 ==》 关于手机 ==》 状态信息 ==》 IP地址 [若未找到，请根据手机品牌自行百度]）
+
+- 测试连接: 在命令行中输入 ping DEVICE_IP (DEVICE_IP 为设备 IP)，若数据包发送成功，则说明在同一局域网下
+
+- 输入命令 adb tcpip 5555 （设置监听端口），回车
+
+- 输入命令 adb connect DEVICE_IP:5555 (将 DEVICE_IP 替换为设备 IP) 连接到您的设备，回车
+
+- 输入命令 scrcpy.exe ，投屏成功
+</code></pre>
+<h5 id="（1）自动配置"><a href="#（1）自动配置" class="headerlink" title="（1）自动配置"></a>（1）自动配置</h5><pre><code>- 参数 --tcpip 允许自动配置连接。这里有两种方式
+
+- 对于传入的 adb 连接，如果设备（示例ip：192.168.1.1）已经监听了一个端口（通常是5555），运行：
+- scrcpy --tcpip=192.168.1.1       # 默认端口是5555
+- scrcpy --tcpip=192.168.1.1:5555
+
+- 如果adb TCP/IP（无线） 模式在某些设备上不被启用（或者你不知道IP地址），用USB连接设备，然后运行：
+- scrcpy --tcpip    # 无需其他参数
+- 这将会自动寻找设备IP地址，启用TCP/IP模式，然后在启动之前连接到设备。
+</code></pre>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><h4 id="1-屏幕设置"><a href="#1-屏幕设置" class="headerlink" title="1.屏幕设置"></a>1.屏幕设置</h4><p><em>降低分辨率</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#通过降低镜像的分辨率来提高性能,要同时限制宽度和高度到某个值 (例如 1024)：</span></span><br><span class="line">scrcpy --max-size 1024</span><br><span class="line">scrcpy -m 1024  <span class="comment"># 简写</span></span><br><span class="line"><span class="comment">#另一边会被按比例缩小以保持设备的显示比例</span></span><br></pre></td></tr></table></figure>
+
+<p><em>修改码率</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#默认码率是 8 Mbps。改变视频码率 (例如改为 2 Mbps)：</span></span><br><span class="line">scrcpy --bit-rate 2M</span><br><span class="line">scrcpy -b 2M  <span class="comment"># 简写</span></span><br></pre></td></tr></table></figure>
+
+<p><em>限制帧率</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#要限制采集的帧率:</span></span><br><span class="line">scrcpy --max-fps 15</span><br></pre></td></tr></table></figure>
+
+<p><em>画面裁剪</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#可以对设备屏幕进行裁剪，只镜像屏幕的一部分</span></span><br><span class="line"><span class="comment">#如果同时指定了 --max-size，会先进行裁剪，再进行缩放</span></span><br><span class="line"></span><br><span class="line">scrcpy --crop 1224:1440:0:0   <span class="comment"># 以 (0,0) 为原点的 1224x1440 像素</span></span><br></pre></td></tr></table></figure>
+
+<p><em>锁定屏幕方向</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">scrcpy --lock-video-orientation     <span class="comment"># 初始（目前）方向</span></span><br><span class="line">scrcpy --lock-video-orientation=0   <span class="comment"># 自然方向</span></span><br><span class="line">scrcpy --lock-video-orientation=1   <span class="comment"># 逆时针旋转 90°</span></span><br><span class="line">scrcpy --lock-video-orientation=2   <span class="comment"># 180°</span></span><br><span class="line">scrcpy --lock-video-orientation=3   <span class="comment"># 顺时针旋转 90°</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2-多设备"><a href="#2-多设备" class="headerlink" title="2.多设备"></a>2.多设备</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#如果 adb devices 列出了多个设备，您必须指定设备的 序列号</span></span><br><span class="line">scrcpy --serial 0123456789abcdef</span><br><span class="line">scrcpy -s 0123456789abcdef  <span class="comment"># 简写</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#如果设备通过 TCP/IP 连接：</span></span><br><span class="line">scrcpy --serial 192.168.0.1:5555</span><br><span class="line">scrcpy -s 192.168.0.1:5555  <span class="comment"># 简写</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="3-窗口设置"><a href="#3-窗口设置" class="headerlink" title="3.窗口设置"></a>3.窗口设置</h4><p><em>标题</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#窗口的标题默认为设备型号。可以通过如下命令修改：</span></span><br><span class="line">scrcpy --window-title <span class="string">&quot;我的设备&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><em>位置和大小</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#指定初始的窗口位置和大小：</span></span><br><span class="line">scrcpy --window-x 100 --window-y 100 --window-width 800 --window-height 600</span><br></pre></td></tr></table></figure>
+
+<p><em>窗口置顶</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scrcpy --always-on-top</span><br></pre></td></tr></table></figure>
+
+<p><em>屏幕旋转</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 0: 无旋转 1: 逆时针旋转 90° 2: 旋转 180° 3: 顺时针旋转 90°</span></span><br><span class="line">scrcpy --rotation 1</span><br></pre></td></tr></table></figure>
+
+<p><em>关闭设备屏幕</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">scrcpy --turn-screen-off</span><br><span class="line">scrcpy -S</span><br></pre></td></tr></table></figure>
+
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><p><em>在以下列表中, MOD 是快捷键的修饰键。 默认是 (左) Alt 或 (左) Super</em><br><em>(Super 键通常是指 Windows 或 Cmd 键)</em><br><em>您可以使用 –shortcut-mod 来修改。可选的按键有 lctrl、rctrl、lalt、ralt、lsuper 和 rsuper</em></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用右 Ctrl 键</span></span><br><span class="line">scrcpy --shortcut-mod=rctrl</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用左 Ctrl 键 + 左 Alt 键，或 Super 键</span></span><br><span class="line">scrcpy --shortcut-mod=lctrl+lalt,lsuper</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">快捷键</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">全屏</td>
+<td align="center">MOD + f</td>
+</tr>
+<tr>
+<td align="center">向左旋转屏幕</td>
+<td align="center">MOD + ← (左箭头)</td>
+</tr>
+<tr>
+<td align="center">向右旋转屏幕</td>
+<td align="center">MOD + → (右箭头)</td>
+</tr>
+<tr>
+<td align="center">将窗口大小重置为1:1 (匹配像素)</td>
+<td align="center">MOD + g</td>
+</tr>
+<tr>
+<td align="center">将窗口大小重置为消除黑边</td>
+<td align="center">MOD + w &#x2F; 双击左键¹</td>
+</tr>
+<tr>
+<td align="center">点按 主屏幕</td>
+<td align="center">MOD + h &#x2F; 中键</td>
+</tr>
+<tr>
+<td align="center">点按 返回</td>
+<td align="center">MOD + b &#x2F; 右键²</td>
+</tr>
+<tr>
+<td align="center">点按 切换应用</td>
+<td align="center">MOD + s &#x2F; 第4键³</td>
+</tr>
+<tr>
+<td align="center">点按 菜单 (解锁屏幕)⁴</td>
+<td align="center">MOD + m</td>
+</tr>
+<tr>
+<td align="center">点按 音量 +</td>
+<td align="center">MOD + ↑ (上箭头)</td>
+</tr>
+<tr>
+<td align="center">点按 音量-</td>
+<td align="center">MOD + ↓ (下箭头)</td>
+</tr>
+<tr>
+<td align="center">点按 电源</td>
+<td align="center">MOD + p</td>
+</tr>
+<tr>
+<td align="center">打开屏幕</td>
+<td align="center">鼠标右键²</td>
+</tr>
+<tr>
+<td align="center">关闭设备屏幕 (但继续在电脑上显示)</td>
+<td align="center">MOD + o</td>
+</tr>
+<tr>
+<td align="center">旋转设备屏幕</td>
+<td align="center">MOD + r</td>
+</tr>
+<tr>
+<td align="center">展开通知面板</td>
+<td align="center">MOD + n &#x2F; 第5键³</td>
+</tr>
+<tr>
+<td align="center">展开设置面板</td>
+<td align="center">MOD + n + n &#x2F; 双击第5键³</td>
+</tr>
+<tr>
+<td align="center">收起通知面板</td>
+<td align="center">MOD + Shift + n</td>
+</tr>
+<tr>
+<td align="center">复制到剪贴板⁵</td>
+<td align="center">MOD + c</td>
+</tr>
+<tr>
+<td align="center">剪切到剪贴板⁵</td>
+<td align="center">MOD + x</td>
+</tr>
+<tr>
+<td align="center">同步剪贴板并粘贴⁵</td>
+<td align="center">MOD + v</td>
+</tr>
+<tr>
+<td align="center">注入电脑剪贴板文本</td>
+<td align="center">MOD + Shift + v</td>
+</tr>
+<tr>
+<td align="center">打开&#x2F;关闭FPS显示 (至标准输出)</td>
+<td align="center">MOD + i</td>
+</tr>
+<tr>
+<td align="center">捏拉缩放</td>
+<td align="center">Ctrl + 按住并移动鼠标</td>
+</tr>
+<tr>
+<td align="center">拖放 APK 文件</td>
+<td align="center">从电脑安装 APK 文件</td>
+</tr>
+<tr>
+<td align="center">拖放非 APK 文件</td>
+<td align="center">将文件推送至设备</td>
+</tr>
+</tbody></table>
+<p><em>¹双击黑边可以去除黑边。</em><br><em>²点击鼠标右键将在屏幕熄灭时点亮屏幕，其余情况则视为按下返回键 。</em><br><em>³鼠标的第4键和第5键。</em><br><em>⁴对于开发中的 react-native 应用程序，MENU 触发开发菜单。</em><br><em>⁵需要安卓版本 Android &gt;&#x3D; 7。</em>  </p>
+<p><em>有重复按键的快捷键通过松开再按下一个按键来进行</em>  </p>
+
 
   </div>
   
   
+    
+    <div class='footer'>
+      
+      
+      
+        <div class='copyright'>
+          <blockquote>
+            
+              
+                <p>海内存知己 , 天涯若比邻</p>
+
+              
+            
+              
+                <p>本文永久链接是：<a href=http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/>http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/</a></p>
+              
+            
+          </blockquote>
+        </div>
+      
+      
+    </div>
+  
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-07-24T14:00:51+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年7月24日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/&title=scrcpy - 末明&summary=开源投屏软件 scrcpy 的简单使用GitHub：scrcpy"
+          
+          >
+          
+            <img src="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
   
   
 
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2022/06/07/%E5%89%8D%E7%AB%AF/Git/'>
+          <p class='title'>Git<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
+
+Git 常用命令1. 创建全新仓库1234# 在当前目录创建一个新的 Git 代码仓库git init# 新建一个目录，将其初始化为代码库git init [project]
+2. 克隆远程...</p>
+        </a>
+      
+    </div>
   
   <!-- Custom Files postEnd begin-->
   
@@ -2832,9 +3132,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
+  <section class="widget toc-wrapper shadow floatable blur desktop mobile pjax" id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5"><span class="toc-text">连接</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%9C%89%E7%BA%BF%E8%BF%9E%E6%8E%A5%E7%94%B5%E8%84%91%E5%92%8C%E6%89%8B%E6%9C%BA"><span class="toc-text">1.有线连接电脑和手机</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E6%97%A0%E7%BA%BF%E8%BF%9E%E6%8E%A5"><span class="toc-text">2.无线连接</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="toc-text">（1）自动配置</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-text">其他</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%B1%8F%E5%B9%95%E8%AE%BE%E7%BD%AE"><span class="toc-text">1.屏幕设置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%A4%9A%E8%AE%BE%E5%A4%87"><span class="toc-text">2.多设备</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE"><span class="toc-text">3.窗口设置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="toc-text">快捷键</span></a></li></ol>
+    </div>
+  </section>
 
   
 
@@ -2887,7 +3197,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3990,7 +4300,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"末明","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"我的名字","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":" 测试博客副描述,位置啦啦啦啦"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"末明"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"末明","url":"http://example.com/","keywords":null,"description":" 测试博客副描述,位置啦啦啦啦","author":{"@type":"Person","name":"我的名字","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":" 测试博客副描述,位置啦啦啦啦"},"publisher":{"@type":"Organization","name":"末明","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"末明","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"我的名字","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":" 测试博客副描述,位置啦啦啦啦"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"末明"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/instrument/","name":"instrument"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/07/24/工具/scrcpy/","name":"scrcpy"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"scrcpy","description":"开源投屏软件 scrcpy 的简单使用GitHub：scrcpy","datePublished":"2022-07-23T16:00:00.000Z","dateModified":"2022-07-24T06:00:51.421Z","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/"},"author":{"@type":"Person","name":"我的名字","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"末明","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/07/24/%E5%B7%A5%E5%85%B7/scrcpy/","wordCount":32,"articleSection":"instrument","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
